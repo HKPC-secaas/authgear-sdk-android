@@ -192,13 +192,15 @@
 }
 
 #logo {
-    background-size: 125px 26px;
+    background-color: #2E76A2;
+    background-size: contain;
     border-bottom: 1px solid #DADFE6;
     background-repeat: no-repeat;
-    background-image: url(../images/docs_logo.svg);
+    background-image: url(../images/docs_logo.png);
     background-origin: content-box;
-    padding-left: 24px;
-    padding-top: 24px;
+    background-position: center;
+    margin: 12px;
+    padding: 8px;
     height: 48px;
 }
 
